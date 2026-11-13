@@ -26,7 +26,7 @@ body{margin:0;min-height:100vh;color:var(--ink);font:400 15px/1.5 Inter,system-u
 .btn{position:relative;overflow:hidden;display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:16px;text-decoration:none;color:var(--ink);background:linear-gradient(180deg,rgba(24,34,48,.92),rgba(14,21,32,.94));border:1px solid var(--line);box-shadow:0 8px 22px rgba(0,0,0,.4);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);transition:transform .15s,box-shadow .15s,border-color .15s;-webkit-tap-highlight-color:transparent}
 a.btn:hover{transform:translateY(-2px);border-color:var(--wood);box-shadow:0 12px 28px rgba(0,154,63,.2)}
 a.btn:active{transform:scale(.98)}
-.btn::before{content:"";position:absolute;top:0;left:-70%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.10),transparent);transform:skewX(-18deg);animation:sh 6s ease-in-out infinite;pointer-events:none}
+.main::before{content:"";position:absolute;top:0;left:-70%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.10),transparent);transform:skewX(-18deg);animation:sh 6s ease-in-out infinite;pointer-events:none}
 @keyframes sh{0%,60%{left:-70%}100%{left:140%}}
 .ic{flex:none;width:46px;height:46px;border-radius:13px;display:grid;place-items:center;background:#0A0F17;border:1px solid rgba(201,162,122,.35)}
 .ic svg{width:25px;height:25px}
